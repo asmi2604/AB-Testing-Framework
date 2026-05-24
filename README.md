@@ -1,4 +1,4 @@
-# 🧪 End-to-End A/B Testing Framework with ML-Accelerated Outcome Prediction
+# End-to-End A/B Testing Framework with ML-Accelerated Outcome Prediction
 
 > A production-grade experimentation pipeline built on the Cookie Cats mobile game dataset,
 > covering power analysis, sanity checks, statistical testing, variance reduction, and an
