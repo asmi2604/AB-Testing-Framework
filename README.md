@@ -20,7 +20,7 @@ Does moving the in-game gate from level 30 to level 40 improve 7-day player rete
 
 ---
 
-## 🏗️ Framework Components
+## Framework Components
 
 | # | Component | What It Does |
 |---|-----------|--------------|
@@ -77,7 +77,7 @@ this caveat noted.
 | p-value | **0.0016** | |
 
 ✅ **Statistically significant.** We reject H₀ at α = 0.05.
-🏆 **Winner: gate_30 (Control)**
+**Winner: gate_30 (Control)**
 
 ---
 
@@ -150,7 +150,7 @@ production experimentation platforms.
 
 ---
 
-## 🧠 Key Learnings
+## Key Learnings
 
 **1. SRM before everything.**
 A statistically significant SRM (p = 0.0086) was detected despite only a ~0.9% group
@@ -175,7 +175,7 @@ The ML predictor adds early signal detection on top of the statistical framework
 it does not substitute for rigorous hypothesis testing. 
 ---
 
-## 💼 Business Recommendation
+## Business Recommendation
 
 > **Do NOT ship gate_40. Keep the gate at level 30.**
 
@@ -186,7 +186,7 @@ attributable to novelty, sampling imbalance, or early-stopping bias.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Tool | Purpose |
 |------|---------|
@@ -202,7 +202,7 @@ attributable to novelty, sampling imbalance, or early-stopping bias.
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 ab-testing-framework/
@@ -227,7 +227,7 @@ ab-testing-framework/
 
 ---
 
-## 🔗 References
+## References
 
 - Kohavi, R., Tang, D., & Xu, Y. (2020). *Trustworthy Online Controlled Experiments*. Cambridge University Press.
 - Deng, A. et al. (2013). *Improving the Sensitivity of Online Controlled Experiments by Utilizing Pre-Experiment Data* (CUPED). Microsoft Research.
