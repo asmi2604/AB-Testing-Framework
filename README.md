@@ -1,6 +1,6 @@
 # 🧪 End-to-End A/B Testing Framework with ML-Accelerated Outcome Prediction
 
-> A production-grade experimentation pipeline built on the Cookie Cats mobile game dataset —
+> A production-grade experimentation pipeline built on the Cookie Cats mobile game dataset,
 > covering power analysis, sanity checks, statistical testing, variance reduction, and an
 > ML-based early outcome predictor inspired by Netflix and Airbnb's experimentation stacks.
 
@@ -8,8 +8,7 @@
 
 ## 📌 Project Overview
 
-This project replicates the **full A/B testing workflow** used by data teams at Google, Meta,
-Netflix, and Airbnb — from experiment design through to a machine learning model that predicts
+This project replicates the **full A/B testing workflow** design through to a machine learning model that predicts
 experiment winners before statistical significance is reached.
 
 **Experiment Question:**
