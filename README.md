@@ -126,7 +126,7 @@ The result remains statistically significant after adjustment, confirming robust
 ### Peeking Problem
 A simulation of daily p-value checks demonstrated **p-value instability** when the experiment
 is checked before completion. The p-value oscillates above and below α = 0.05 at early
-checkpoints — stopping at any of these would produce false conclusions. This illustrates
+checkpoints, stopping at any of these would produce false conclusions. This illustrates
 why sequential testing requires correction methods (e.g., alpha spending functions) rather
 than naive daily monitoring.
 
@@ -159,8 +159,8 @@ In production, this check gates all downstream analysis.
 
 **2. p-value alone is insufficient.**
 The Z-test gave p = 0.0016, but the bootstrap CI [-0.0132, -0.0032] and the novelty
-effect check together provide much stronger evidence. All three methods agreed — control
-wins — which is the real signal of a robust result.
+effect check together provide much stronger evidence. All three methods agreed control
+wins which is the real signal of a robust result.
 
 **3. CUPED is worth implementing.**
 A 10.7% variance reduction means the same conclusion could have been reached with ~10%
@@ -172,9 +172,7 @@ experiment. Naive stopping rules inflate false positive rates well beyond the no
 
 **5. ML extends, not replaces, statistics.**
 The ML predictor adds early signal detection on top of the statistical framework —
-it does not substitute for rigorous hypothesis testing. The combination is what
-production experimentation platforms at Netflix and Airbnb actually implement.
-
+it does not substitute for rigorous hypothesis testing. 
 ---
 
 ## 💼 Business Recommendation
