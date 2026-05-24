@@ -234,3 +234,7 @@ ab-testing-framework/
 - Netflix Technology Blog — Experimentation Platform
 - Airbnb Engineering Blog — Experiment Reporting Framework
 - Cookie Cats Dataset — Kaggle / Tactile Entertainment
+
+
+*Project by Asmita Rajendra | [LinkedIn](https://www.linkedin.com/in/asmita-r-5b23691a1/)*
+
